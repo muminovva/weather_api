@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,53,121,1) 43%, rgba(0,212,255,1) 100%);
+    height: 800px;
+}
+
+
+
+.card{
+    width: 250px;
+    border-radius: 20px;
+    background: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+.city{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.gradus{
+    font-size: 50px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-weather{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 40px;    
+}
+
+
+.input{
+    padding: 10px 40px;
+    border-radius: 10px 0 10px 0;
+    -webkit-border-radius: 10px 0 10px 0;
+    -moz-border-radius: 10px 0 10px 0;
+    -ms-border-radius: 10px 0 10px 0;
+    -o-border-radius: 10px 0 10px 0;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+
+.case{
+    text-align: center;
+}
+
+.weather-text{
+    color: #fff;
+    padding-top: 20px;
+}
+
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #fff;
+    color: gray;
+}
